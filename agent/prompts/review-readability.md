@@ -1,14 +1,14 @@
 ---
 description: 코드 가독성을 리뷰하고 개선 제안을 제공
-argument-hint: "[파일, diff, 함수, 또는 리뷰 범위]"
+argument-hint: "[범위]"
 ---
 
 코드의 가독성을 리뷰해.
 
-리뷰 범위:
+범위:
 $ARGUMENTS
 
-리뷰 범위가 제공되지 않은 경우:
+범위가 비어 있다면:
 - 먼저 `git status`를 확인해.
 - staged 변경사항이 있으면 `git diff --cached`를 우선 리뷰해.
 - staged 변경사항이 없으면 unstaged 변경사항을 `git diff`로 리뷰해.
