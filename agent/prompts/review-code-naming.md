@@ -44,7 +44,6 @@ $ARGUMENTS
 
 | 위치 | 현재 이름 | 추천 이름 | 이유 |
 |---|---|---|---|
-| `path/to/file.ext` | `currentName` | `recommendedName` | 추천 이유 |
 
 # 네이밍 일관성 제안
 
