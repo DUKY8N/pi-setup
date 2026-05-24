@@ -1,5 +1,6 @@
 **/auth.json
 **/settings.json
 **/sessions/
+/pi-acp/
 
 .DS_Store
